@@ -37,20 +37,20 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Full-Stack Web Development": [
-      "Modern web apps with React & Django",
-      "Custom SaaS dashboards and admin panels",
-      "REST APIs and database integration",
+    "Développement Full-Stack": [
+      "Applications web modernes avec React & Django",
+      "Tableaux de bord et panneaux d'administration personnalisés",
+      "API REST et intégration de base de données",
     ],
-    "Frontend Development": [
-      "Responsive and dynamic user interfaces (React, TailwindCSS)",
-      "Single Page Applications (SPAs)",
-      "Fast, clean, and maintainable code structure",
+    "Développement Frontend": [
+      "Interfaces utilisateur réactives et dynamiques (React, TailwindCSS)",
+      "Applications à page unique (SPAs)",
+      "Code structure rapide, propre et maintenable",
     ],
-    "Backend Development": [
-      "Django REST Framework (DRF) APIs",
-      "Authentication, permissions & data management",
-      "Integration with AI APIs and third-party services",
+    "Développement Backend": [
+      "API REST avec Django REST Framework (DRF)",
+      "Authentification, permissions et gestion des données",
+      "Intégration avec des API AI et des services tiers",
     ],
   };
 
